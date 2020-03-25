@@ -39,5 +39,5 @@ def sum_array(array)
   while i < array.length
     sum + array[i]
     i += 1
-  
+  end
 end 
