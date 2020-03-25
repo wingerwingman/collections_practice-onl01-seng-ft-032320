@@ -29,8 +29,6 @@ end
 end
 
 def find_a(array)
-  new_arr = []
-  if array.start_with? "a"
-    new_arr << 
+  array.select { |word| word.start_with?('a') }
   
 end
