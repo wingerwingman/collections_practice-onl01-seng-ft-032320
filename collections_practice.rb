@@ -3,6 +3,6 @@ def sort_array_asc(nums)
 end 
 
 def sort_array_desc(nums)
-  num_sorted = num.sort.reverse 
+  num_sorted = nums.sort.reverse 
   num_sorted
 end
