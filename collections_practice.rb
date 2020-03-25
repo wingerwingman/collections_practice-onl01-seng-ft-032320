@@ -29,6 +29,8 @@ end
 end
 
 def find_a(array)
-  item << array.detect{|i| i[0] = "a" }
+  new_arr = []
+  if array.start_with? "a"
+    new_arr << 
   
 end
