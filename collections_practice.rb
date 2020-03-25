@@ -29,7 +29,6 @@ end
 end
 
 def find_a(array)
-  i = 0 
-  while i < array.length
+  item << array.detect{|i| i[0] = "a" }
   
 end
